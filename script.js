@@ -76,7 +76,7 @@ const teams = [
     }
 ];
 function searchPlayer() {
-    const searchText = document.getElementById("playerSearch").value.toLowerCase();
+    const searchText = document.getElementById("playerSearch").value.trim().toLowerCase();
 
     const player = players.find(
         p => p.name.toLowerCase().includes(searchText)
