@@ -13,28 +13,48 @@ const players = [
 
     },
     {
-        name: "RG Sharma",
+        name: "Rohit Sharma",
         matches: 265,
         runs: 27206,
-        balls: 28868
+        balls: 28868,
+        average: 45.5,
+        bowlingWickets: 5,
+        economy: 7.54,
+        bowlingAverage: 166.25
+
     },
     {
         name: "DA Warner",
         matches: 220,
         runs: 28573,
-        balls: 29705
+        balls: 29705,
+        average: 54.73,
+       bowlingWickets: 4,
+       economy: 8.05,
+       bowlingAverage: 166.25
+
     },
     {
         name: "JE Root",
         matches: 260,
         runs: 27299,
-        balls: 39648
+        balls: 39648,
+        average: 54.73,
+       bowlingWickets: 4,
+       economy: 8.05,
+       bowlingAverage: 166.25
+
     },
     {
         name: "AB de Villiers",
         matches: 228,
         runs: 26370,
-        balls: 30477
+        balls: 30477,
+        average: 54.73,
+       bowlingWickets: 4,
+       economy: 8.05,
+       bowlingAverage: 166.25
+
     }
 ];
 const teams = [
