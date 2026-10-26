@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+        <h1>Player Analysis</h1>
+        <p> Explore cricket player statistics</p>
+        <a href="index.html" class="back-home">back to home </a>
+        
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Search Player </h2>
+            <p>Search and analyse your favourate player </p>
+        </section>
+        <div class="player-layout">
+        <section class="search-section">
+
+            <input type="text"
+            id="playerSearch"
+            placeholder="Enter Player Name ">
+            
+            <button onclick="searchPlayer()">Search</button>            
+
+        </section>
+        
+         <div class="player-photo-section">
+            <img src="images/images (1).jpg" alt="virat kohli" class="player-photo">
+         </div>
+        </div>
+
+        <section id="playerResult" class="player-card">
+            <h2>Player Analysis</h2>
+            <p>Search for a player to see statistics</p>
+
+        </section>
+        
+    </main>
+    <script src="script.js"> </script>
+</body>
+</html>
